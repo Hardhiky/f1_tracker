@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #121212; /* Dark theme */
+  overflow: hidden; /* Prevent scroll */
+}
+
+#map-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  background-color: #000; /* Black background */
+}
+
